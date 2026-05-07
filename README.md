@@ -1,4 +1,5 @@
 # Werner–PSO Automated Magnetic Anomaly Inversion
+# created by Gwaliwa Mashaka
 
 This repository contains the Python implementation of an automated magnetic anomaly inversion workflow developed for the manuscript:
 
@@ -37,8 +38,8 @@ werner-research/
 │
 ├── src/
 │   ├── appendix_a_werner_pso.py
-│   ├── main_inversion_workflow.py
-│   └── peak_detection_profile_extraction.py
+│   
+│
 │
 ├── examples/
 │   ├── aoi_magnetic_anomalies3.csv
@@ -64,13 +65,6 @@ Provides a compact general-purpose implementation of the main workflow, includin
 - global optimization;
 - RMSE-based model evaluation.
 
-### `src/main_inversion_workflow.py`
-
-Provides a simplified reproducible version of the main Werner–PSO workflow. This script demonstrates the core computational steps in a transparent and easy-to-run format.
-
-### `src/peak_detection_profile_extraction.py`
-
-Contains routines for detecting magnetic anomaly peaks and extracting horizontal or vertical magnetic profiles from raster/grid inputs. The script also supports saving peak coordinates, selected profiles, and figure outputs.
 
 ### `examples/run_quick_test.py`
 
@@ -83,8 +77,8 @@ Provides a minimal quick-test example showing how to run the workflow using exam
 Clone the repository:
 
 ```bash
-git clone https://github.com/Gwaliwa/werner-research.git
-cd werner-research
+git clone https://github.com/Gwaliwa/werners-paper
+cd werner-paper
 ```
 
 Install the required Python dependencies:
